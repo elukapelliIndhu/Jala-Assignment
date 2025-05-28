@@ -1,0 +1,10 @@
+table {
+    border: 2px solid black;
+    width: 50%;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+table:hover {
+    background-color: greenyellow;
+}

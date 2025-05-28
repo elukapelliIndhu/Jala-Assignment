@@ -1,0 +1,15 @@
+.multi-bg {
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+
+    background-image: url('https://via.placeholder.com/150/FF0000'), 
+     url('https://via.placeholder.com/100/0000FF');
+
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
+    background-size: 150px 150px, 100px 100px;
+    background-color: gray;
+}

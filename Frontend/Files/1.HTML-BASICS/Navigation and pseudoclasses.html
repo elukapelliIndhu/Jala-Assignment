@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Favorite Travel Destination</title>
+    <style>
+        /* Pseudo-class: hover for links */
+        a:hover {
+            color: darkorange;
+            text-decoration: underline;
+        }
+
+        /* Pseudo-class: first-child to style the first item in the list */
+        ul li:first-child {
+            font-weight: bold;
+            color: green;
+        }
+
+        /* Pseudo-class: nth-child to style every even food item */
+        ol li:nth-child(even) {
+            background-color: #f0f0f0;
+        }
+
+        /* Pseudo-element: Add text before headings */
+        h2::before {
+            content: "🗺️ ";
+        }
+
+        h3::before {
+            content: "🍽️ ";
+        }
+
+        /* Pseudo-element: Add quote icon before blockquote */
+        blockquote::before {
+            content: "❝";
+            font-size: 24px;
+            vertical-align: top;
+        }
+
+        blockquote::after {
+            content: "❞";
+            font-size: 24px;
+            vertical-align: bottom;
+        }
+
+        /* Pseudo-class: span hover effect */
+        span:hover {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <h2>Quick Navigation</h2>
+    <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#places">Places to Visit</a></li>
+        <li><a href="#food">Food to Taste</a></li>
+        <li><a href="#tip">Travel Tip</a></li>
+        <li><a href="#quote">Quote</a></li>
+    </ul>
+
+    <!-- Introduction Section -->
+    <h1 id="intro">WELCOME TO INDIA</h1>
+    <div style="text-align:center;">
+        <p><i><span>Indian land of diverse cultures, breathtaking landscapes, and ancient history</span>, is a dream destination for every traveler. 50+ must-visit places in India—from the Taj Mahal to Ladakh, Kerala backwaters to the Rann of Kutch.</i></p>
+    </div>
+    <a href="https://www.rainforestcruises.com/guides/top-10-tourist-attractions-in-india" target="_blank">Tourist Images</a>
+
+    <!-- Places Section -->
+    <h2 id="places">Places to Visit in India</h2>
+    <div>
+        <ul>
+            <li>Taj Mahal</li>
+            <li>Kasi</li>
+            <li>Rann of Kutch</li>
+            <li>Ladakh</li>
+            <li>Kerala</li>
+            <li>Kashmir</li>
+            <li>Thousand Pillar Temple</li>
+            <li>Bhadrakali Temple</li>
+            <li>Golden Temple</li>
+        </ul>
+    </div>
+
+    <!-- Food Section -->
+    <hr>
+    <h3 id="food">Food to Taste</h3>
+    <ol>
+        <li>Chaat</li>
+        <li>Pani Puri</li>
+        <li>Biryani</li>
+        <li>Vada Pav</li>
+        <li>Pav Bhaji</li>
+        <li>Naan</li>
+        <li>Butter Chicken</li>
+        <li>Tiffins</li>
+    </ol>
+
+    <!-- Travel Tip -->
+    <h3 id="tip">Travel Tip</h3>
+    <label>Tip:</label>
+    <p>Always carry cash as not all places accept cards.</p>
+
+    <!-- Image -->
+    <div>
+        <img src="https://i0.wp.com/www.romanticbug.com/wp-content/uploads/2015/11/India-Gate.-Delhi.jpg?resize=1200%2C700" height="150" alt="India Gate">
+    </div>
+
+    <!-- Quote Section -->
+    <h3 id="quote">Inspirational Travel Quote</h3>
+    <blockquote>
+        Traveling – it leaves you speechless, then turns you into a storyteller. – Ibn Battuta
+    </blockquote>
+
+    <!-- Back to Top -->
+    <a href="#intro">Back to Top</a>
+
+</body>
+</html>

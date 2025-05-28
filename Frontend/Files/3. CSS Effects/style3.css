@@ -1,0 +1,36 @@
+.static-box {
+  position: static;
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+.relative-box {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.fixed-box {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: orange;
+  padding: 10px;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  background-color: skyblue;
+  padding: 10px;
+}
+
+.sticky-box {
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+  padding: 10px;
+}

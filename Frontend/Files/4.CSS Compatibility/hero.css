@@ -1,0 +1,18 @@
+/* hero.css */
+.hero-image {
+  background-image: url('https://vignette2.wikia.nocookie.net/sonicpokemon/images/7/77/Pikachu.png/revision/latest?cb=20120603213349'); /* Replace with your image */
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: violet;
+}

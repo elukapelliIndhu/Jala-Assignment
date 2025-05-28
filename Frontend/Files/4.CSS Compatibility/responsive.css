@@ -1,0 +1,24 @@
+/* responsive.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.responsive-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.responsive-img, .responsive-video {
+  width: 100%;
+  height: auto;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .responsive-grid {
+    grid-template-columns: 1fr;
+  }
+}

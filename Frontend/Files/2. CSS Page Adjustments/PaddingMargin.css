@@ -1,0 +1,11 @@
+.padding-box {
+    background-color: lightgreen;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+.margin-box {
+    background-color: lightcoral;
+    margin: 30px;
+    border: 2px solid black;
+}

@@ -1,0 +1,15 @@
+/* grid.css */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */
+  gap: 10px;
+  padding: 20px;
+}
+
+.item {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}

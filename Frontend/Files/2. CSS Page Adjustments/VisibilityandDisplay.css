@@ -1,0 +1,35 @@
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.collapse {
+    visibility: collapse;
+}
+
+/* Display properties */
+.none {
+    display: none;
+}
+
+.inline {
+    display: inline;
+    background-color: yellow;
+}
+
+.block {
+    display: block;
+    background-color: lightblue;
+}
+
+.contents {
+    display: contents;
+    background-color: pink;
+}
+
+.list-item {
+    display: list-item;
+}

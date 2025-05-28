@@ -1,0 +1,8 @@
+.transparent-img {
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+.transparent-img:hover {
+  opacity: 1; /* Full visibility on hover */
+}

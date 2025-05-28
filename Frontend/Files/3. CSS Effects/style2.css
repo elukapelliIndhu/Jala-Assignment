@@ -1,0 +1,35 @@
+/* Animation */
+@keyframes slideIn {
+  0% { transform: translateX(-100px); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+.animate-box {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  animation-name: slideIn;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+  animation-delay: 1s;
+  margin-bottom: 20px;
+}
+
+/* Pagination (no space) */
+.pagination a {
+  padding: 10px 15px;
+  background-color: lightgray;
+  text-decoration: none;
+  margin: 0;
+  border: 1px solid #ccc;
+}
+
+.pagination a:hover {
+  background-color: gray;
+  color: white;
+}
+
+/* Pagination (with space) */
+.pagination.spaced a {
+  margin: 0 5px;
+}
